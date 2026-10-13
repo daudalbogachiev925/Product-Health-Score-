@@ -1,0 +1,28 @@
+weights:
+  growth: 0.25
+  retention: 0.25
+  monetization: 0.25
+  nps: 0.15
+  support: 0.10
+
+thresholds:
+  growth:
+    bad: 0
+    ok: 5
+    good: 15
+  retention:
+    bad: 0.2
+    ok: 0.4
+    good: 0.6
+  monetization:
+    bad: 0.5
+    ok: 1.0
+    good: 2.0
+  nps:
+    bad: 0
+    ok: 30
+    good: 60
+  support:
+    bad: 0.1
+    ok: 0.05
+    good: 0.02
